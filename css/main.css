@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@200&display=swap");
+body {
+  background: gray;
+  margin: 0;
+  font-family: 'Noto Sans';
+}
+
+.header {
+  background: #5a5454;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: 2px solid #fd5e1e;
+}
+
+.navbar {
+  background: #5a5454;
+  padding: 1.3em 1.2em 1.3em 1.2em;
+  width: 1250px;
+  height: 135px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo {
+  background: #3e3e3e;
+  width: 215px;
+  height: 110px;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.left-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #2a524a;
+  height: 110px;
+}
+
+.top-bar {
+  background: #3e3e3e;
+  width: 1020px;
+  height: 55px;
+  margin: 0em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-bar .search-bar {
+  padding: .6em .6em .6em .7em;
+}
+
+.top-bar .search-bar .search-text {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+  width: 400px;
+  height: 35px;
+  padding-left: 35px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #fd5e1e;
+  background-color: #3e3e3e;
+  font-size: 16px;
+  background: url(../imag/search.png) no-repeat;
+}
+
+.ul1 {
+  list-style-type: none;
+  margin: .6em 0em;
+  padding: 0em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ul1 #avt {
+  width: 35px;
+  height: 35px;
+  margin: 0em;
+  padding: 0em;
+}
+
+.ul1 .kazim-zia {
+  background-color: #3e776b;
+  width: 100px;
+  height: 35px;
+  color: white;
+  margin: 0em;
+  padding: 0em;
+  font-size: .9em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ul1 #user {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ul1 #user1 {
+  padding-right: 330px;
+}
+
+.navbar-menu {
+  background: #2a524a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar-menu .ul2 {
+  list-style-type: none;
+  width: 610px;
+  height: 20px;
+  padding: 0em;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navbar-menu .ul2 .li2 {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
